@@ -16,6 +16,14 @@
 		89BE8B0E2A6965C2006D7390 /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE8B0D2A6965C2006D7390 /* QuizAppTests.swift */; };
 		89BE8B182A6965C2006D7390 /* QuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE8B172A6965C2006D7390 /* QuizAppUITests.swift */; };
 		89BE8B1A2A6965C2006D7390 /* QuizAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE8B192A6965C2006D7390 /* QuizAppUITestsLaunchTests.swift */; };
+		89BE8B282A6967C8006D7390 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 89BE8B272A6967C8006D7390 /* Alamofire */; };
+		89BE8B2A2A696E26006D7390 /* DesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE8B292A696E26006D7390 /* DesignViewController.swift */; };
+		89BE8B2D2A69711E006D7390 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 89BE8B2C2A69711E006D7390 /* SnapKit */; };
+		89BE8B312A697756006D7390 /* QuizPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE8B302A697756006D7390 /* QuizPageViewController.swift */; };
+		89CC54C52A6CFBA4001105DE /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CC54C42A6CFBA4001105DE /* QuizViewController.swift */; };
+		89CC54C82A6CFE1F001105DE /* QuizQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CC54C72A6CFE1F001105DE /* QuizQuestionCell.swift */; };
+		89CC54CA2A6CFE2C001105DE /* QuizAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CC54C92A6CFE2C001105DE /* QuizAnswerCell.swift */; };
+		89CC54CC2A6CFE3A001105DE /* QuizFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CC54CB2A6CFE3A001105DE /* QuizFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,12 @@
 		89BE8B132A6965C2006D7390 /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BE8B172A6965C2006D7390 /* QuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITests.swift; sourceTree = "<group>"; };
 		89BE8B192A6965C2006D7390 /* QuizAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89BE8B292A696E26006D7390 /* DesignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignViewController.swift; sourceTree = "<group>"; };
+		89BE8B302A697756006D7390 /* QuizPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageViewController.swift; sourceTree = "<group>"; };
+		89CC54C42A6CFBA4001105DE /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		89CC54C72A6CFE1F001105DE /* QuizQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionCell.swift; sourceTree = "<group>"; };
+		89CC54C92A6CFE2C001105DE /* QuizAnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAnswerCell.swift; sourceTree = "<group>"; };
+		89CC54CB2A6CFE3A001105DE /* QuizFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BE8B282A6967C8006D7390 /* Alamofire in Frameworks */,
+				89BE8B2D2A69711E006D7390 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +95,8 @@
 		89BE8AEA2A6965C0006D7390 = {
 			isa = PBXGroup;
 			children = (
+				89CC54C42A6CFBA4001105DE /* QuizViewController.swift */,
+				89CC54C62A6CFDF7001105DE /* QuizCells */,
 				89BE8AF52A6965C0006D7390 /* QuizApp */,
 				89BE8B0C2A6965C2006D7390 /* QuizAppTests */,
 				89BE8B162A6965C2006D7390 /* QuizAppUITests */,
@@ -102,6 +120,8 @@
 				89BE8AF62A6965C0006D7390 /* AppDelegate.swift */,
 				89BE8AF82A6965C0006D7390 /* SceneDelegate.swift */,
 				89BE8AFA2A6965C0006D7390 /* ViewController.swift */,
+				89BE8B302A697756006D7390 /* QuizPageViewController.swift */,
+				89BE8B292A696E26006D7390 /* DesignViewController.swift */,
 				89BE8AFC2A6965C0006D7390 /* Main.storyboard */,
 				89BE8AFF2A6965C1006D7390 /* Assets.xcassets */,
 				89BE8B012A6965C1006D7390 /* LaunchScreen.storyboard */,
@@ -127,6 +147,16 @@
 			path = QuizAppUITests;
 			sourceTree = "<group>";
 		};
+		89CC54C62A6CFDF7001105DE /* QuizCells */ = {
+			isa = PBXGroup;
+			children = (
+				89CC54C72A6CFE1F001105DE /* QuizQuestionCell.swift */,
+				89CC54C92A6CFE2C001105DE /* QuizAnswerCell.swift */,
+				89CC54CB2A6CFE3A001105DE /* QuizFooterView.swift */,
+			);
+			path = QuizCells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +173,10 @@
 			dependencies = (
 			);
 			name = QuizApp;
+			packageProductDependencies = (
+				89BE8B272A6967C8006D7390 /* Alamofire */,
+				89BE8B2C2A69711E006D7390 /* SnapKit */,
+			);
 			productName = QuizApp;
 			productReference = 89BE8AF32A6965C0006D7390 /* QuizApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +249,10 @@
 				Base,
 			);
 			mainGroup = 89BE8AEA2A6965C0006D7390;
+			packageReferences = (
+				89BE8B262A6967C8006D7390 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				89BE8B2B2A69711E006D7390 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 89BE8AF42A6965C0006D7390 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CC54CA2A6CFE2C001105DE /* QuizAnswerCell.swift in Sources */,
 				89BE8AFB2A6965C0006D7390 /* ViewController.swift in Sources */,
 				89BE8AF72A6965C0006D7390 /* AppDelegate.swift in Sources */,
+				89BE8B2A2A696E26006D7390 /* DesignViewController.swift in Sources */,
+				89CC54CC2A6CFE3A001105DE /* QuizFooterView.swift in Sources */,
+				89CC54C52A6CFBA4001105DE /* QuizViewController.swift in Sources */,
+				89CC54C82A6CFE1F001105DE /* QuizQuestionCell.swift in Sources */,
+				89BE8B312A697756006D7390 /* QuizPageViewController.swift in Sources */,
 				89BE8AF92A6965C0006D7390 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,6 +646,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89BE8B262A6967C8006D7390 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		89BE8B2B2A69711E006D7390 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89BE8B272A6967C8006D7390 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89BE8B262A6967C8006D7390 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		89BE8B2C2A69711E006D7390 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89BE8B2B2A69711E006D7390 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89BE8AEB2A6965C0006D7390 /* Project object */;
 }
